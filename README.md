@@ -8,6 +8,8 @@ quickly create a 1080 composition with a full-fill placeholder inside
   - no `GUI`
 
   - compatible with `launch pad.jsx` `kbar` and `ft-toolbar`
+  
+  - press `alt` to switch fps to `60` , default  `25`
 
   
 ### Usage & Installation
@@ -42,5 +44,4 @@ quickly create a 1080 composition with a full-fill placeholder inside
    TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 
   0. You just DO WHAT THE FUCK YOU WANT TO.
-
 
