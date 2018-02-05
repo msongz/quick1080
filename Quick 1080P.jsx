@@ -26,7 +26,7 @@
 		var compSet = {};
 		compSet.h = 1080;
 		compSet.w = 1920;
-		compSet.fps = ScriptUI.environment.keyboardState.altKey?25:60;
+		compSet.fps = ScriptUI.environment.keyboardState.altKey?60:25;
 		compSet.fps60 = 60;
 		compSet.dur = 10;
 		compSet.layer = "";
