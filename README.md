@@ -1,7 +1,7 @@
 # quick 1080
 quickly create a 1080 composition with a full-fill placeholder inside
 
-![](http://ww1.sinaimg.cn/large/66e22e28ly1fnyztqvhdej20fx096wej.jpg)
+![](https://ws4.sinaimg.cn/large/006tNbRwgy1fwkewxvakij31250gcglo.jpg)
 
 ### Description
 
@@ -27,7 +27,7 @@ quickly create a 1080 composition with a full-fill placeholder inside
   
 ### Version
 
- - 2.0 
+ - 3.0 
  
 ### License
 
