@@ -14,13 +14,13 @@ quickly create a 1080 composition with a full-fill placeholder inside
 
 ### Usage & Installation
 
-- put the jsx to :open_file_folder: `/ae installation folder/support file/script/`
+- put the jsx to 📁  `<ae installation folder>/support file/script/`
 
-- run it from the <kbd>file</kbd>><kbd>scripts</kbd>><kbd>run script file</kbd>><kbd>quick1080.jsx</kbd> or any kind of tool bar
+- run it from the <kbd>file</kbd>><kbd>scripts</kbd>><kbd>quick1080.jsx</kbd> or any kind of tool bar
 
 ### Compatibility
 
-  After Effects `CC+ or older`
+  After Effects `CC 2018`
   
 ### Version
 
