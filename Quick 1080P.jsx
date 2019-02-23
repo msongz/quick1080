@@ -5,7 +5,10 @@
 //WTFPL license
 (function quick1080()
 {
-	app.beginUndoGroup("quick1080");
+	var globalName = "quick1080";
+	var compW = 1920;
+	var compH = 1080;
+	app.beginUndoGroup(globalName);
 
 	function addZero(num)
 	{
@@ -20,17 +23,17 @@
 		sec = addZero(date.getSeconds()),
 		curDate = year.toString() + mon + day + hour + min + sec;
 	var compSet = {};
-	compSet.h = 1080;
-	compSet.w = 1920;
+	compSet.h = compH;
+	compSet.w = compW;
 	compSet.fps = ScriptUI.environment.keyboardState.altKey ? 60 : 25;
 	compSet.fps60 = 60;
 	compSet.dur = 10;
 	compSet.layer = "";
 	compSet.pixel = 1;
-	compSet.name = "quick1080-" + curDate + Math.random(100).toFixed(3);
+	compSet.name = globalName + curDate + Math.random(100).toFixed(3);
 	compSet.layerColor = [0.5, 0.5, 0.5];
 	compSet.layerName = compSet.name;
-	compSet.phName = "quick1080";
+	compSet.phName = globalName + " by songZ";
 	var comp = app.project.items.addComp(compSet.name, compSet.w, compSet.h, compSet.pixel, compSet.dur, compSet.fps),
 		layer = comp.layers.addSolid(compSet.layerColor, compSet.layerName, compSet.w, compSet.h, compSet.pixel, compSet.dur),
 		layerSource = layer.source;
